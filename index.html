@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Kedai Dua Putri</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo-duaputri-4.png" width="125px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="products.html">Produk</a></li>
+              <li><a href="tentang.html">Tentang</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+              <!-- <li><a href="account.html">Account</a></li> -->
+            </ul>
+          </nav>
+          <!-- <a href="cart.html"
+            ><img src="images/cart.png" width="30px" height="30px"
+          /></a> -->
+          <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Makanan Ringan
+              <br /><span style="color: #ff0099">Mengenyangkan Perut</span>
+              Anda!
+            </h1>
+            <p>
+              Temukan Beragam Pilihan Cemilan yang Menggugah Selera, Mulai dari
+              Camilan Manis hingga Gurih, Siap Membuat Anda Ketagihan
+            </p>
+            <a href="https://wa.me/088213103889" class="btn"
+              >Hubungi Kami &#8594;</a
+            >
+          </div>
+          <div class="col-3">
+            <img src="images/putri-3.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------ featured categories------------------------------>
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/lokasi-2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/lokasi-3.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/lokasi-1.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------ featured Products------------------------------>
+    <div class="small-container">
+      <div class="title">
+        <img src="images/judul-produk-home-1.png" alt="" />
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="risolis-mayo-ori.html"
+            ><img src="images/risol-mayo-ori.png"
+          /></a>
+          <h4>Risolis Mayones Original</h4>
+          <div class="rating">
+            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>3.000 rupiah</p>
+        </div>
+        <div class="col-4">
+          <a href="pangsit-besar.html"
+            ><img src="images/pangsit-besar.png"
+          /></a>
+          <h4>Pangsit Super Pedas (isi 8)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>15.000 rupiah</p>
+        </div>
+        <div class="col-4">
+          <a href="pangsit-kecil.html"
+            ><img src="images/pangsit-kecil.png"
+          /></a>
+          <h4>Pangsit Super Pedas (Isi 5)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>10.000 rupiah</p>
+        </div>
+        <div class="col-4">
+          <a href="es-coklat.html"><img src="images/es-coklat.png" /></a>
+          <h4>Es Coklat Nuttela</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>7.000 rupiah</p>
+        </div>
+      </div>
+      <!--new row for the latest product-->
+      <div class="row">
+        <div class="col-4">
+          <a href="dimsum.html"><img src="images/dimsum.png" /></a>
+          <h4>Dimsum (isi 5)</h4>
+          <div class="rating">
+            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>15.000 rupiah</p>
+        </div>
+        <div class="col-4">
+          <a href="pisang-cripy.html"><img src="images/pisang-crispy.png" /></a>
+          <h4>Pisang Crispy Kecil</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>10.000 rupiah</p>
+        </div>
+        <div class="col-4">
+          <a href="sempol-ayam.html"><img src="images/sempol-ayam.png" /></a>
+          <h4>Sempol Ayam (per tusuk)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>1.000 rupiah</p>
+        </div>
+        <div class="col-4">
+          <a href="risolis-mayo-ori.html"
+            ><img src="images/risol-mayo-ori.png"
+          /></a>
+          <h4>Risolis Mayones Pedas</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>3.000 rupiah</p>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------`   offer   --------------------------------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/profile-sambutan.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Tersedia produk di Kedai Dua Putri</p>
+            <h1>Cemilan Lezat</h1>
+            <small>
+              Beli produk makanan dan minuman kami dengan datang ke lokasi kami.
+              Toko kami menyediakan secara lengkap jika anda datang ke lokasi
+              kami, silahkan klik maps di bawah :</small
+            ><br />
+            <a href="products.html" class="btn">Produk selengkapnya &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------Testimonial---------------------------------->
+    <!------------------------------Maps---------------------------------->
+    <div class="maps">
+      <div class="title">
+        <img src="images/judul-lokasi-home.png" alt="" />
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.90834846669773!2d106.68602149149169!3d-6.1931022700941645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9223293e38f%3A0x7e6ca5c2dfe61df5!2sKedai%202putri!5e0!3m2!1sid!2sid!4v1708277459697!5m2!1sid!2sid"
+        width="100%"
+        height="470"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!----------------------------------Brands------------------------------------>
+
+    <!----------------------------------footer------------------------------------->
+    <div class="footer" id="kontak">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-2">
+            <img src="images/logo-duaputri-4.png" />
+            <p>
+              Hubungi kami dan kunjungi sosial media toko bisnis kami dengan
+              mengklik icon di bawah ini!😉
+            </p>
+            <p>
+              Alamat lengkap : Kedai 2putri, RM4P+PFP, Gg. Mandala III,
+              RT.001/RW.003, Kenanga, Kec. Cipondoh, Kota Tangerang, Banten
+              15146
+            </p>
+          </div>
+        </div>
+        <div class="brands">
+          <div class="small-container">
+            <div class="row">
+              <div class="col-6">
+                <a href="">
+                  <img src="images/grab.png" alt="" />
+                </a>
+              </div>
+              <div class="col-6">
+                <img src="images/gofood.png" alt="" />
+              </div>
+              <div class="col-6">
+                <a href=" https://wa.me/088213103889">
+                  <img src="images/whatsapp.png" alt="" />
+                </a>
+              </div>
+              <div class="col-6">
+                <a
+                  href="https://www.facebook.com/chneng.c.qmoe?mibextid=ZbWKwL"
+                >
+                  <img src="images/facebook.png" alt="" />
+                </a>
+              </div>
+              <div class="col-6">
+                <a
+                  href="https://www.instagram.com/zahwa9949?igsh=MXV3OGJiYzdkcGEwZQ=="
+                >
+                  <img src="images/instagram.png" alt="" />
+                </a>
+              </div>
+              <div class="col-6">
+                <a
+                  href="https://www.tiktok.com/@almahyra.rinjani?_t=8k98km0Dps9&_r=1"
+                >
+                  <img src="images/tiktok.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <!--horizontal line-->
+        <p class="copyright">Copyright 2024 - KedaiDuaPutri</p>
+      </div>
+    </div>
+
+    <!-----------------------------------js for toggle menu----------------------------------------------->
+    <script>
+      var menuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
